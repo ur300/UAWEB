@@ -1,0 +1,60 @@
+/*sticky footer*/
+html, body {
+	min-width: 570px;
+}
+.out{margin: 0 auto -45px;}
+.footer, .push {
+	height: 45px;
+}
+/**  Primary styles **/
+.bg{bottom: 45px;}
+.content{
+	max-width: 1000px;
+	min-width: 570px;
+	position: static;
+}
+.out_search .content{
+	position: relative;
+	z-index: 10;
+	max-width: 950px;
+	padding: 0 29px;
+}
+.logo{
+	float: left;
+	margin: 3px 25px 0 0;
+}
+.out_main .search-box{
+	margin-top: -25px;
+	margin-left: -285px;
+}
+.search-box{min-width: 570px;}
+.search-box__i{float: left;}
+.footer{
+	max-width: 942px;
+	min-width: 512px;
+}
+.footer__menu{float: left;}
+.footer__menu ul li{
+	line-height: 45px;
+	float: left;
+}
+.lang__pic{top: 17px;}
+.soc{float: right;}
+.soc a{float: left;}
+
+/*Search Results*/
+.header{
+	padding: 43px 29px 0;
+	max-width: 950px;
+	margin: 0 auto 31px;
+}
+.search-counter{float: right;}
+.side-menu{
+	width: 18%;
+	float: left;
+}
+.gallery{
+	width: 82%;
+	float: right;
+}
+
